@@ -1,6 +1,59 @@
 /* work sans fonts from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fira+Sans&family=Lato:wght@400;700&family=League+Spartan:wght@400;500;600&family=Montserrat&family=Open+Sans:wght@400;700;800&family=Poppins:wght@100;200;400;600;700;800;900&family=Roboto:wght@400;700&family=Satisfy&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+
+/* shared style */
 *{
     font-family: 'Work Sans', sans-serif;
+}
+
+/* hader syle */
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a{
+    text-decoration: none;
+    color: var(--Dark-02, #424242);
+}
+
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--Dark-01, #131313);
+}
+
+.banner-content{
+    max-width: 880px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.banner-description{
+    color: #727272;
 }
